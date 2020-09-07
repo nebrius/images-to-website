@@ -1,0 +1,27 @@
+{
+  "name": "images-to-website",
+  "version": "1.0.0",
+  "description": "A bespoke script to convert a series of images to a website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nebrius/images-to-website.git"
+  },
+  "author": "Bryan Hughes <bryan@nebri.us>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/nebrius/images-to-website/issues"
+  },
+  "homepage": "https://github.com/nebrius/images-to-website#readme",
+  "dependencies": {
+    "handlebars": "^4.7.6"
+  },
+  "engines": {
+    "node" : ">=10.12.0"
+  },
+  "engineStrict" : true
+}

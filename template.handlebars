@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-image: url('{{image}}');
+  background-size: cover;
+}
+.previous {
+  right: 100px;
+}
+.next {
+  right: 10px;
+}
+.previous, .next {
+  position: absolute;
+  font-size: 72pt;
+  font-weight: bold;
+  bottom: 0;
+  z-index: 1;
+  text-decoration: none;
+}
+</style>
+</head>
+<body>
+<div class="content"></div>
+{{#if previous}}
+<a class="previous" href="{{previousUrl}}">🠔</a>
+{{/if}}
+{{#if next}}
+<a class="next" href="{{nextUrl}}">🠖</a>
+{{/if}}
+</body>
+</html>
